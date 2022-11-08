@@ -13,3 +13,24 @@ font-style: italic;
 #paragraph {
     background-color: bisque;
 }
+a:visited{
+    color: purple;
+}
+.Home {
+    padding: 10px;
+    background-color: aqua;
+border-radius: 5px;
+}
+.Home:active{
+    background-color: bisque;
+    padding: 8px;
+}
+.food-list > ul > li{color: aqua ;}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+p{
+    color: blueviolet;
+}
