@@ -39,18 +39,21 @@ color: brown;
 
 /* Styling Grid */ 
 .grid-container {
-    display: grid;
-    grid-template-rows: 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px;
-    row-gap: 10px;
-    column-gap: 20px;
+    display: grid; background-color: rebeccapurple;
+    grid-template: repeat(3, 100px) / repeat(2, 100px);
+    gap: 10px 20px;
+    padding: 15px;
+    width: 500px ;
+    overflow:hidden
+
 }
 .grid-item {
     background-color: blue;
     color: white;
     border: 3px solid purple;
-    width: 100px;
+    width: 50px;
     text-align: center;
-    line-height: 100px;
+    line-height: 50px;
     font-size: 30px;
+    margin-bottom: 0px;
 }

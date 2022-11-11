@@ -14,11 +14,11 @@ font-style: italic;
     background-color: bisque;
 }
 a:visited{
-    color: purple;
+    color: white;
 }
 .Home {
     padding: 10px;
-    background-color: aqua;
+    background-color: #333;
 border-radius: 5px;
 }
 .Home:active{
