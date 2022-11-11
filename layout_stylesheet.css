@@ -5,9 +5,10 @@ color: brown;
 
 .flex-container {
     display: flex;
-    width: 60%;
-    height: 60%;
-    flex-flow: row wrap-reverse;
+    width: 600px;
+    height: 600px;
+    flex-flow: row nowrap;
+    align-items: stretch;
     background-color: black;
     justify-content: space-evenly ;
     justify-items: flex-start;
@@ -22,7 +23,37 @@ color: brown;
     font-size: 30px;
 }
 
-#item A {
+#flex-item A {
+    order: 0;
     height: 10px;
     color: chartreuse;
+}
+
+#flex-item B {
+    order: 3;
+    height: 10px;
+    color: chartreuse;
+}
+
+
+
+/* Styling Grid */ 
+.grid-container {
+    display: grid; background-color: rebeccapurple;
+    grid-template: repeat(3, 100px) / repeat(2, 100px);
+    gap: 10px 20px;
+    padding: 15px;
+    width: 500px ;
+    overflow:hidden
+
+}
+.grid-item {
+    background-color: blue;
+    color: white;
+    border: 3px solid purple;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    margin-bottom: 0px;
 }
